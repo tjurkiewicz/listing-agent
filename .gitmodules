@@ -1,3 +1,6 @@
 [submodule "schema"]
 	path = schema
 	url = https://github.com/tjurkiewicz/listing-db-schema.git
+[submodule "proto"]
+	path = proto
+	url = https://github.com/tjurkiewicz/host-assistant-proto.git
