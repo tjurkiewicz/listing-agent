@@ -1,3 +1,3 @@
 [submodule "schema"]
 	path = schema
-	url = https://github.com/tjurkiewicz/listing-agent.git
+	url = https://github.com/tjurkiewicz/listing-db-schema.git
