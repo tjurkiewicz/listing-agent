@@ -1,4 +1,5 @@
 import datetime
+import logging
 import time
 
 import sqlalchemy.orm
@@ -9,7 +10,10 @@ import schema.listing
 
 
 if __name__ == '__main__':
+    config.setup()
     conf = config.get_config()
+
+    logging.info("listing agent is starting.")
 
     db_connection = conf['SQLDatabase']['Connection']
     interval = conf.getint('Runtime', 'Interval')
